@@ -1,0 +1,24 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: "";
+    margin-left: 100px;
+    color: aliceblue;
+}
+p {
+background-color: #38383881;
+width: 500px;
+padding: 20px;
+margin-left: 100px;
+border-radius: 5px;
+color: aliceblue;
+}
+img {
+margin-left: 100px;
+}
+a {
+
+}
