@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(195, 253, 253, 0.941);
+}
+table {
+    background-color: cadetblue;
+    width: 1000px;
+    margin: auto;
+}
+caption {
+    background-color: beige;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    background-image: url(./bilder/grey-grunge-texture_1100-24.avif);
+}
+tr {
+
+}
+th {
+    padding: 15px;
+    font-size: 25px;
+}
+td {
+    background-color: ghostwhite;
+    padding: 10px;
+}
+img {
+    width: 150px;
+}
