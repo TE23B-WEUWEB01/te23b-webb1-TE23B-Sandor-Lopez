@@ -1,0 +1,41 @@
+body{
+    background-image: url(./bilder/sam-wermut-35muyqODIHA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: "poppins", sans-serif;
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h2{
+    font-family: "poppins", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+p{
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+    margin-top: 125px;
+    margin-left: 875px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: pink;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
