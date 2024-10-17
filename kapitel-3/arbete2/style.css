@@ -1,0 +1,60 @@
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body.sida1 {
+    background-image: url("./bilder/pattern-3296033_640.png");
+}
+body.sida2 {
+    background-image: url(./bilder/ajrak-8858928_640.png);
+}
+
+div { 
+    background-color: #fff;
+    width: 500px;
+    border: 5px dashed #555;
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+    font-family: "Open Sans", system-ui;
+}
+
+/* Innehållets utseende */
+h1 {
+font-size: 25px;
+margin-bottom: 15px;
+font-family: "Open Sans", sans-serif;
+}
+p {
+    font-size: 18px;
+}
+a {
+text-decoration: none;
+font-size: 40px;
+font-weight: bold;
+color: rgb(67, 154, 211);
+}
