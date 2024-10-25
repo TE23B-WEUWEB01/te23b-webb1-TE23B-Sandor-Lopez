@@ -1,0 +1,33 @@
+:root{
+    /* CSS HEX */
+--rich-black: #040f0fff;
+--forest-green: #248232ff;
+--pigment-green: #2ba84aff;
+--gunmetal: #2d3a3aff;
+--baby-powder: #fcfffcff;
+}
+
+
+body{
+    background-color: var(--gunmetal);
+}
+.kontainer{
+    background-color: var(--gunmetal)
+    
+}
+.inlägg{
+
+}
+/* Innehållets utseende */
+h1{
+    color: var(--baby-powder);
+}
+h2{
+    color: var(--baby-powder);
+}
+p{
+    color: var(--baby-powder);
+}
+img{
+    padding: 5px;
+}

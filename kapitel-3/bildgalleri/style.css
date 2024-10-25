@@ -1,0 +1,38 @@
+
+
+body{
+    background-image: url(./bilder/AFRC2017-0233-007~large.jpg);
+    color: azure;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.kontainer{
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    background-color: #ffffffcc;
+}
+.box{
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+h1{
+    font-family: monospace;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+div{
+
+}
+img{
+    width: 100%;
+}
