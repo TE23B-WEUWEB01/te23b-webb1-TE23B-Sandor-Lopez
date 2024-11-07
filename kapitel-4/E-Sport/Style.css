@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Tiny5&display=swap');
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+/* Layouten */
+body {
+    background-color: #734AB0;
+}
+.kontainer {
+    font-family: "Tiny5", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #E4DAF0;
+}
+.box {
+    background-color: #5A5A5A;
+    color: #fff;
+}
+/* Rubrikerna */
+h1 {
+    font-family: "Jacquard 12", system-ui;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h2 {
+
+}
+/* Sidans innehåll */
+img {
+    width: 30%;
+}
+p {
+
+}
+.courtesy {
+
+}
+a {
+
+}
