@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jacquard+12&family=Tiny5&display=swap');
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* Utseende på sidan */
+body {
+background-size: cover;
+background-attachment: fixed;
+background-color: rgb(120, 182, 182);
+}
+h1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    text-align: center;
+    color: aliceblue;
+}
+p {
+    padding: 10px;
+    background-color: rgb(113, 112, 112);
+    color: rgb(201, 219, 252);
+    border-radius: 5px;
+    font-size: 110%;
+}
+img {
+
+}
+.kontainer {
+display: flex;
+margin: 10px;
+width: 800px;
+padding: 65px;
+border-radius: 10px;
+gap: 25px;
+}
+.box {
+    background: #545353;
+    color: rgb(149, 205, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+img {
+    width: 400px;
+    border-radius: 10px;
+    border: 5px solid #ffff;
+    height: 200px;
+}
