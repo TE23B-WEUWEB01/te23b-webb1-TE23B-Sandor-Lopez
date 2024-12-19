@@ -1,0 +1,68 @@
+body{
+    font-family: serif;
+}
+.kontainer{
+    background-color: rgba(25, 88, 8, 0.957);
+}
+
+/* menynsutsende */
+.kontainer ul .aktiv{
+    background-color: #961802;
+}
+ul{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.kontainer ul{
+    width: 800px;
+    margin: auto;
+
+}
+
+.kontainer ul a{
+    text-decoration: none;
+    color: #040404;
+    background-color: #949595;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 2px 2px 0 #5c6061;
+    text-align: center;
+    width: 140px;
+    padding: 12px;
+    font-size: 25px;
+
+}
+
+.box{
+    width: 1000px;
+    background-color: rgba(8, 125, 41, 0.76);
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box p{
+    font-size: 20px; 
+
+}
+
+figure{
+    background-color: rgb(106, 7, 7);
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}

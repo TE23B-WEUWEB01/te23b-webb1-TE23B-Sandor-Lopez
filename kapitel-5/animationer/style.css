@@ -1,0 +1,52 @@
+.ruta {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px auto;
+    animation: bytFärg 5s infinite;
+}
+@keyframes bytFärg {
+    0% {
+    background-color: red;
+    transform: scale(1) translateX(0);
+    opacity: 0;
+    }  
+    50% {
+    background-color: yellow;
+    transform: scale(2) translateX(200px);
+    box-shadow: 0 0 20px;
+    border-radius: 50%;
+    opacity: 0;
+    }
+    100% {
+    background-color: red;
+    transform: scale(1);
+    opacity: 0;
+    }
+}
+/* Animera studsande emoji */
+.emoji-1 {
+    font-size: 100px;
+    animation: studs  1s infinite;
+    animation-delay: 0.3s;
+}
+.emoji-2 {
+    font-size: 100px;
+    margin-left: 100px;
+    animation: studs  1s infinite;
+    animation-delay: 2s;
+}
+.emoji-3 {
+    font-size: 100px;
+    animation: studs  1s infinite;
+    animation-delay: 1.3s;
+}
+
+@keyframes studs {  
+0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(0);
+    }
+} 
