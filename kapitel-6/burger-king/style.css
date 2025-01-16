@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+/* bg-färg = #FBF7F1
+burgare bg-färg = #F5EBDC
+textfärg = #502314
+knappfärg = #CC2200
+typsnitt =
+  font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+/* sidlayouts */
+body{
+
+}
+.kontainer{
+
+}
+/* sidhuvud */ 
+.sidhuvud {
+
+}
+.sidhuvud .meny {
+
+}
+.sidhuvud .meny a {
+
+}
+.sidhuvud .erbjudande {
+
+}
+
+/* sidinnehhåll */
+
+.innehall {
+
+}
+.innehall h2 {
+
+}
+.innehall .kolumner-3 {
+
+}
+.innehall .kolumner-3 .burgare {
+
+}
+.innehall .kolumner-3 .burgare img {
+
+}
+.innehall .kolumner-3 .burgare p {
+    
+}
