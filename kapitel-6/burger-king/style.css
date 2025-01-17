@@ -16,30 +16,43 @@ burgare bg-färg = #F5EBDC
 textfärg = #502314
 knappfärg = #CC2200
 typsnitt =
-  font-family: "Modak", serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Modak", serif;
+font-weight: 400;
+font-style: normal;
 */
 
 /* sidlayouts */
 body{
-
+  background-color: #FBF7F1;
 }
 .kontainer{
-
+  width: 1200px;
+  margin: auto;
+  font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #502314;
 }
 /* sidhuvud */ 
 .sidhuvud {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 .sidhuvud .meny {
-
+  padding: 10px;
 }
 .sidhuvud .meny a {
-
+  text-decoration: none;
+  color: #502314;
+  padding: 10px;
 }
 .sidhuvud .erbjudande {
-
+  text-decoration: none;
+  color: #CC2200;
+  border: 2px solid #CC2200;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* sidinnehhåll */
@@ -48,17 +61,33 @@ body{
 
 }
 .innehall h2 {
-
+  font-weight: 400;
+  font-size: 50px;
 }
 .innehall .kolumner-3 {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }
 .innehall .kolumner-3 .burgare {
-
+  background-color: #F5EBDC;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  height: 150px;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.innehall .kolumner-3 .burgare:hover {
+  height: 500px;
+  transition-duration: 500ms;
 }
 .innehall .kolumner-3 .burgare img {
-
+  width: 100%;
+}
+.innehall .kolumner-3 .burgare img.fix {
+  margin-bottom: 70px;
 }
 .innehall .kolumner-3 .burgare p {
-    
+    font-size: 25px;
 }
