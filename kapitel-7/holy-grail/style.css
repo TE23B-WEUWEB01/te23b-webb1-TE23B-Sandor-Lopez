@@ -1,0 +1,48 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+/* Holy Grail layouten */
+.kontainer {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud sidhuvud"
+    "meny artiklar sidebar"
+    "sidfot sidfot sidfot"
+    ;
+}
+header {
+    background-color: yellow;
+    grid-area: sidhuvud;
+    min-height: 10vh;
+}
+nav {
+    background-color: green;
+    grid-area: meny;
+    min-height: 80vh;
+}
+main {
+    background-color: purple;
+    grid-area: artiklar;
+}
+aside {
+    background-color: blue;
+    grid-area: sidebar;
+}
+footer {
+    background-color: red;
+    grid-area: sidfot;
+    min-height: 10vh;
+}
