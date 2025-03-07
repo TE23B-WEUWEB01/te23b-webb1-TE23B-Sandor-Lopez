@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+/* sidan */
+html, body {
+
+}
+.container {
+
+}
+/* sidhuvudet */
+.container header {
+
+}
+.container header h1 {
+
+}
+.container header nav {
+
+}
