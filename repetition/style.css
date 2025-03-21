@@ -1,0 +1,64 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+
+/* Sidan utseende */
+body {
+
+}
+.kontainer {
+
+}
+
+/* sidhuvud */
+.kontainer header {
+
+}
+.kontainer header h1 {
+
+}
+/* menyn */
+.kontainer header nav {
+
+}
+.kontainer header nav a {
+    text-decoration: none;
+    color: black;
+    background: olivedrab;
+    padding: 10px;
+}
+.kontainer header nav a:hover {
+
+}
+.kontainer header nav a.aktiv {
+
+}
+
+/* sidans innehåll */
+.kontainer main {
+
+}
+.kontainer main h2 {
+
+}
+.kontainer main p {
+
+}
+
+/* Sidans sidfot */
+.kontainer footer {
+
+}
+.kontainer footer p {
+
+}
